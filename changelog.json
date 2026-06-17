@@ -3,7 +3,7 @@
     "id": "001",
     "date": "2026-06-17",
     "title": "Enriquecimiento de datos de dirección para Google Search",
-    "description": "Se completaron los campos de domicilio fiscal (código postal, provincia, ciudad, país) en Cuentas y Contactos usando como fuente externa los datos de Rubiro, unificando por CUIT. Los contactos no requirieron actualización directa — los datos se pueden sacar vía Informes usando los campos de la cuenta relacionada.",
+    "description": "Se completaron los campos de domicilio fiscal (código postal, provincia, ciudad, país) en Cuentas y Contactos usando como fuente externa los datos de Rubiro, unificando por CUIT.",
     "modules": ["Cuentas", "Contactos"],
     "sections": [
       {
