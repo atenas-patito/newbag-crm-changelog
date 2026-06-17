@@ -1,5 +1,36 @@
 [
   {
+  "id": "002",
+  "date": "2026-06-17",
+  "title": "Migración de tratos desde Active Campaign a Zoho CRM",
+  "description": "Se descargaron los tratos del CRM anterior (Active Campaign), se unificaron con los datos de clientes existentes en Zoho mediante el ID de AC ya cargado en Power Query, se actualizó el propietario de cuentas y contactos relacionados, y se dio de baja el CRM anterior.",
+  "modules": ["Cuentas", "Contactos", "Oportunidades"],
+  "sections": [
+    {
+      "label": "Extracción y unificación de datos",
+      "steps": [
+        "Descarga de tratos desde Active Campaign",
+        "Unificación en Power Query cruzando por el ID de AC ya existente en Zoho"
+      ]
+    },
+    {
+      "label": "Actualización en Zoho CRM",
+      "steps": [
+        "Actualización del propietario en las cuentas relacionadas",
+        "Actualización del propietario en los contactos relacionados"
+      ]
+    },
+    {
+      "label": "Baja del CRM anterior",
+      "steps": [
+        "Desactivación / baja de Active Campaign como CRM activo"
+      ]
+    }
+  ],
+  "note": "El campo ID de AC en Zoho fue clave para el cruce sin ambigüedades. Verificar que no queden registros huérfanos sin propietario asignado.",
+  "author": "Dani"
+},
+  {
     "id": "001",
     "date": "2026-06-17",
     "title": "Enriquecimiento de datos de dirección para Google Search",
